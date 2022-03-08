@@ -13,11 +13,11 @@ Router.get("/id",findById);
 
 //@PUT method
 
-Router.get("/:id",UpdatePerson);
+Router.put("/:id",UpdatePerson);
 
 //@DELETE method
 
-Router.get("/",DeletePerson);
+Router.delete("/",DeletePerson);
 
 
 
